@@ -9,21 +9,29 @@ Nama: Salma Perbiana
 Email: cdcc200d6x2466@student.devacademy.id  
 ID Dicoding: CDCC200D6X2466  
 
+---
+
 ## 🎯 Pertanyaan Bisnis
 1. Seberapa besar perbedaan rata-rata jumlah penyewaan sepeda (cnt) antara kondisi cuaca buruk (weathersit ≥ 3) dan cuaca normal (weathersit < 3) pada data per jam selama tahun 2011–2012?
 2. Pada jam berapa terjadi jumlah penyewaan tertinggi oleh pengguna registered pada hari kerja selama musim panas (summer) tahun 2011-2012?
 3. Bagaimana perbedaan rata-rata jumlah penyewaan sepeda antara pengguna casual dan registered pada akhir pekan (weekend) selama tahun 2011-2012?
 4. Bagaimana hubungan antara suhu (temp) dan jumlah penyewaan sepeda (cnt) pada kondisi suhu rendah dan tinggi selama tahun 2011–2012?
 
+---
+
 ## 📊 Dataset
 - day.csv
 - hour.csv
+
+---
 
 ## 🎯 Tujuan
 1. Menganalisis pengaruh kondisi cuaca terhadap jumlah penyewaan sepeda
 2. Mengidentifikasi pola waktu (jam) dengan tingkat penyewaan tertinggi oleh pengguna registered
 3. Membandingkan perilaku penggunaan antara pengguna casual dan registered pada akhir pekan
 4. Menganalisis hubungan antara suhu dan jumlah penyewaan sepeda
+
+---
 
 ## 📁 Struktur Direktori
 
@@ -37,6 +45,24 @@ submission-bike-analysis/
 ├── README.md
 ├── requirements.txt
 └── url.txt
+```
+
+## ⚙️ Setup Environment
+
+### Setup Environment - Anaconda
+```bash
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install -r requirements.txt
+```
+
+### Setup Environment - Shell/Terminal
+```bash
+mkdir proyek_analisis_data
+cd proyek_analisis_data
+pipenv install
+pipenv shell
+pip install -r requirements.txt
 ```
 
 ## ▶️ Cara Menjalankan
