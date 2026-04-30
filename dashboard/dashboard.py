@@ -2,12 +2,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
-import os
 
 sns.set(style="dark")
-
-st.write("Current working directory:", os.getcwd())
-st.write("Isi folder sekarang:", os.listdir())
 
 # =========================
 # LOAD DATA
